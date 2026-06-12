@@ -22,6 +22,7 @@
 20. 附录：独立交叉核验摘要
 21. 附录：参考来源与引注
 22. 附录：PPT 素材全量验证表
+23. 附录：QA 门禁结果
 
 ## 决策标准表（必须包含）
 
@@ -56,3 +57,11 @@
 - callout 用全边框不用左侧彩色条
 - KPI 卡片固定列数，数字带 `white-space: nowrap`
 - PDF 用 Playwright，`display_header_footer=False`
+
+
+## 来源和 QA 附录要求
+
+- 参考来源表必须包含 Source Card 编号、证据等级、URL/文件路径、访问日期和本次用途。
+- 对关键结论，报告正文应引用 Source Card 编号，而不是只列 URL。
+- QA 门禁结果按 `references/qa-checklist.md` 的表格格式放入附录。
+- 若存在高影响失败项，封面或“关于本报告”中必须标注“审阅版/待补充版”。
